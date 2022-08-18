@@ -1,8 +1,16 @@
-//BIG O: O(n^2)
-//Objective: a straight-forward comparison sort algorithm that continuously
-//           compares adjacent indexes and swaps them if they are out of order
+// BIG O: O(n^2)
 
-//Directions:
+// Use Case
+
+// It works well with large datasets where the items are almost sorted because it takes only one iteration to detect whether the
+// list is sorted or not. But if the list is unsorted to a large extend then this algorithm holds good for small datasets or lists.
+// This algorithm is fastest on an extremely small or nearly sorted set of data.
+
+// Objective:
+// a straight - forward comparison sort algorithm that continuously
+// compares adjacent indexes and swaps them if they are out of order
+
+// Directions:
 // - Store looping from with a variable called i the end of the array
 //   towards the beginning.
 // - Start an inner loop with a variable called j from the beginning until

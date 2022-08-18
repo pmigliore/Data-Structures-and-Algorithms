@@ -1,6 +1,13 @@
-//BIG O: O(nk)
+// BIG O: O(nk)
 
-//Directions:
+// Use Case
+
+// When the repetition of elements is not much in the given lists, but the length of the elements is of the same range,
+// then using radix sort is beneficial.
+// Radix sort is widely used on data that can be sorted lexicographically.
+// It is also applied to stably sort strings.
+
+// Directions:
 // - Define a function that accepts list of numbers
 // - Figure out how many digits the largest number has
 // - Loop from k = 0 up to this largest number of digits

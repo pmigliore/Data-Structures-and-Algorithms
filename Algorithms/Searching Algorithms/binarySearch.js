@@ -1,5 +1,5 @@
 //BIG O: O(log n)
-//Objective: find value in array
+//Objective: find value in array (only if sorted)
 
 function binarySearch(arr, val) {
   let left = 0;

@@ -1,6 +1,13 @@
-//BIG O: O(n log(n))
+// BIG O: O(n log(n))
 
-//Directions:
+// Use Case
+
+// Quick sort is fastest, but it is not always O(N*log N), as there are worst cases where it becomes O(N2).
+// Quicksort is probably more effective for datasets that fit in memory. For larger data sets it proves to be inefficient
+// so algorithms like merge sort are preferred in that case.
+// Quick Sort in is an in-place sort (i.e. it doesn’t require any extra storage) so it is appropriate to use it for arrays.
+
+// Directions:
 // - Call the pivot helper on the array
 // - When the helper returns to you the updated index, recursively call
 //   the pivot helper on the subarray to the left of that index, and the

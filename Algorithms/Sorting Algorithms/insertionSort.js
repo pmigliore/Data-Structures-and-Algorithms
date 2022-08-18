@@ -1,9 +1,18 @@
-//BIG O: O(n^2)
-//Objective: A sorting algorithms similar to bubble sort,
-//           but instead of first placing large values into sorted position,
-//           it places small values into sorted position
+// BIG O: O(n^2)
 
-//Directions:
+// Use Case
+
+// If the data is nearly sorted or when the list is small as it has a complexity of O(N2) and if the list is sorted a
+// minimum number of elements will slide over to insert the element at it’s correct location.
+// This algorithm is stable and it has fast running case when the list is nearly sorted.
+// The usage of memory is a constraint as it has space complexity of O(1).
+
+// Objective:
+// A sorting algorithms similar to bubble sort,
+// but instead of first placing large values into sorted position,
+// it places small values into sorted position
+
+// Directions:
 // - Start by picking the second element in the array
 // - Now compare the second element with the one before it and swap if
 //   necessary.

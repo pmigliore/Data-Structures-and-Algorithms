@@ -1,6 +1,19 @@
-//BIG O: O(n log(n))
-//Objective: Decomposes an array into smaller arrays of
-//           0 or 1 elements, then building up a newly sorted array
+// BIG O: O(n log(n))
+
+// Use Case
+
+// Merge sort is used when the data structure doesn’t support random access since it works with pure sequential access that is forward iterators,
+// rather than random access iterators.
+// It is widely used for external sorting, where random access can be very, very expensive compared to sequential access.
+// It is used where it is known that the data is similar data.
+// Merge sort is fast in the case of a linked list.
+// It is used in the case of a linked list as in linked list for accessing any data at some index we need to traverse from the head to that
+// index and merge sort accesses data sequentially and the need of random access is low.
+// The main advantage of the merge sort is its stability, the elements compared equally retain their original order.
+
+// Objective:
+// Decomposes an array into smaller arrays of
+// 0 or 1 elements, then building up a newly sorted array
 
 // Directions:
 // - Create an empty array, take a look at the smallest values in each

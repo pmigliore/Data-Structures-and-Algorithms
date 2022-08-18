@@ -1,9 +1,16 @@
-//BIG O: O(n^2)
-//Objective: A sorting algorithms similar to bubble sort,
-//           but instead of first placing large values into sorted position,
-//           it places small values into sorted position
+// BIG O: O(n^2)
 
-//Directions:
+// Use Case
+
+// When the list is small. As the time complexity of selection sort is O(N^s2) which makes it inefficient for a large list.
+// When memory space is limited because it makes the minimum possible number of swaps during sorting.
+
+// Objective:
+// A sorting algorithms similar to bubble sort,
+// but instead of first placing large values into sorted position,
+// it places small values into sorted position
+
+// Directions:
 // - Store the first element as the smallest value you've seen so far.
 // - Compare this item to the next item in the array until you find a
 //   smaller number.
